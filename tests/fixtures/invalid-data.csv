@@ -1,0 +1,6 @@
+name,email,age
+,john@example.com,25
+Jane Smith,invalid-email,30
+Bob Johnson,bob@example.com,-5
+Alice,alice@example.com,abc
+Missing Name,missing@test.com,200

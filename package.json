@@ -1,0 +1,32 @@
+{
+  "name": "data-validator",
+  "version": "1.0.0",
+  "description": "A tool for validating data files to ensure they meet specified criteria.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "ts-node scripts/run-tests.ts",
+    "test:jest": "jest",
+    "build": "tsc",
+    "dev": "ts-node --watch src/index.ts"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "ts-node": "^10.0.0",
+    "jest": "^27.0.0",
+    "@types/jest": "^27.0.0",
+    "@types/node": "^18.0.0"
+  },
+  "keywords": [
+    "data",
+    "validation",
+    "csv",
+    "json"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
