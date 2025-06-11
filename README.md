@@ -79,8 +79,8 @@ You can simulate the GitHub Actions CI pipeline on your local machine using this
 #### Windows (PowerShell/Git Bash)
 
 ```bash
-# run directly with bash
-bash run-ci.sh
+# run local ci
+sh scripts/run-ci.sh
 ```
 
 #### What the Local CI Checks
