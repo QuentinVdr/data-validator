@@ -71,3 +71,24 @@ The CI automatically runs on:
    - Logical inconsistencies
 
 **CI Status:** All tests must pass before code can be merged.
+
+### 🏠 Run CI Locally
+
+You can simulate the GitHub Actions CI pipeline on your local machine using this script:
+
+#### Windows (PowerShell/Git Bash)
+
+```bash
+# run directly with bash
+bash run-ci.sh
+```
+
+#### What the Local CI Checks
+
+- ✅ Dependencies install correctly
+- ✅ TypeScript compiles without errors
+- ✅ All validation tests pass
+- ✅ Jest unit tests pass
+- ✅ Code follows the same standards as GitHub Actions
+
+**💡 Tip:** Run this script before pushing to catch issues early!
